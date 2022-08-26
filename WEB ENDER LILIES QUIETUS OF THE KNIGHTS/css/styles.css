@@ -1,0 +1,211 @@
+.pagina {
+    background-color: black ;
+    font-family: 'Noto Serif JP', serif;
+}
+
+#fondo-pagina {
+    background-size: cover;
+    position: fixed;
+
+    min-height: 100%;
+    min-width: 100%;
+
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.contenedor-menu {
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 1.1vw;
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.73);
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.73);
+    background-color: black;
+    z-index: 0;
+}
+
+#logo {
+    float: left;
+    width: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20%;
+    margin-right: 0;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.7s;
+}
+
+#logo:hover {
+    filter: brightness(300%);
+    filter: contrast(200%);
+    background-color: rgba(255, 255, 255, 0.232);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.73);
+    transition: all 1s;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: rgba(85, 83, 83, 0.779);
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 0;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.7s;
+
+}
+
+.menu li a:hover {
+    filter: brightness(300%);
+    filter: contrast(200%);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.73);
+    background-color: rgba(255, 255, 255, 0.411);
+    transition: all 1s;
+}
+
+#primer-elemento-menu {
+    margin-left: 10%;
+}
+
+.contenedor-texto {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.316);
+    background-image: url("../img/fondo-contenedor-texto-2.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width:80%;
+    height: 1900px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.73);
+    font-family: 'Century Gothic';
+}
+
+#intro {
+    margin: 5%;
+    margin-right: 5%;
+    padding:2%;
+    font-size: 1.5vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.316);
+    color: white;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.73);
+    box-shadow: 0 -20px 20px 5px rgba(0, 0, 0, 0.771),
+        0 -20px 30px 0.2px rgba(255, 255, 255, 0.374) inset;
+}
+
+#lily {
+    float: left;
+    height: 50vh;
+    margin-left: 20%;
+    box-shadow: 0 0 70px 20px rgba(255, 255, 255, 0.714);
+    background-color: rgba(255, 255, 255, 0.51);
+    border-radius: 100%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border-style:none;
+    transform: scaleX(-1);
+}
+
+#titulo-lily {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:8vh;
+    margin-bottom: -5%;
+    color: white;
+    text-shadow: 5px 0 10px black;
+}
+
+#cuadro-lily {
+    margin: 5%;
+    margin-left: 50%;
+    padding:2%;
+    font-size: 1.5vw;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.496);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.73);
+    box-shadow: 20px 0 30px 5px rgb(0, 0, 0),
+        20px 0 20px 1px white inset;
+}
+
+#titulo-caballero {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8vh; 
+    float: left;
+    margin-top: 10%;
+    margin-bottom: -5%;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    text-shadow: -0.4px 0 white, 0 0.4px white,
+    0.4px 0 white, 0 -0.4px white,
+    0 10px 10px black;
+}
+
+#cuadro-caballero {
+    float: left;
+    margin: 5%;
+    margin-right: 50%;
+    padding: 2%;
+    font-size: 1.5vw;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.73);
+    box-shadow: 0 20px 30px 5px rgb(0, 0, 0),
+        0 10px 20px 1px rgba(255, 255, 255, 0.633) inset;
+}
+
+#caballero {
+    float: right;
+    margin-top: -30%;
+    margin-right: 10%;
+    height: 50vh;
+    border-style: none;
+    transform: scaleX(-1);
+}
+
+#titulo-trailer {
+    margin-top: 40%;
+    text-align: center;
+    font-family: 'Noto Serif JP';
+    font-size: 4vw;
+
+    color: rgb(255, 255, 255);
+    text-shadow: -0.5px 0 black, 0 0.5px black,
+    0.5px 0 black, 0 -0.5px black,
+    0 0 20px rgb(0, 0, 0),
+    0 0 30px rgb(255, 255, 255);
+}
+
+.trailer {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -1%;
+    height: 25%;
+}
+
+#video-trailer {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
